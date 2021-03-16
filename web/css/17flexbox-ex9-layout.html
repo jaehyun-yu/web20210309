@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="all.min.js"></script>
+    <style>
+        .wrapper {
+            display: flex;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: grey;
+        }
+
+        .main {
+            color: white;
+            font-size: 30px;
+            padding: 15px;
+        }
+
+        .main:hover {
+            background-color: green;
+        }
+
+        .title-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .body-container {
+            display: flex;
+            margin-top: 10px;
+
+        }
+        .side-menu{
+            padding: 20px 30px;
+        }
+
+        .main-container {
+            flex: 1;
+            padding:20px 30px;
+        }
+
+        .body-container div:nth-child(1) {
+            background-color: gray;
+        }
+
+        .body-container div:nth-child(2) {
+            background-color: black;
+            color:white;
+        }
+
+        .body-container div:nth-child(3) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .title-container>h1>lorem3^button{login} -->
+    <div class="title-container">
+        <h1>w3schools.com</h1>
+        <div>
+            <button>login</button>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="wrapper">
+            <div class="main"><i class="fas fa-bars"></i></div>
+            <div class="main"><i class="fas fa-home"></i></div>
+            <div class="main">HTML</div>
+            <div class="main">CSS</div>
+            <div class="main">JAVASCRIPT</div>
+            <div class="main">MORE<i class="fas fa-caret-down"></i></div>
+        </div>
+        <div class="wrapper">
+            <div class="main"><i class="fas fa-adjust"></i></div>
+            <div class="main"><i class="fas fa-globe-americas"></i></div>
+            <div class="main"><i class="fas fa-search"></i></div>
+        </div>
+    </div>
+        <!-- .body-container>.side-menu+.main-content+.ad-container -->
+        <div class="body-container">
+            <div style="overflow-y: auto; height: 1000px;";>
+            
+            <div class="side-menu">
+                <h3>HTML Reference</h3>
+                <h4>HTML</h4>
+                <h4>HTML by Alphabet</h4>
+                <h4>HTML by Category</h4>
+                <h4>HTML Browser Support</h4>
+                <h4>HTML Attributes</h4>
+                <h4>HTML Global Attributes</h4>
+                <h4>HTML Events</h4>
+                <h4>HTML Colors</h4>
+                <h4>HTML Canvas</h4>
+                <h4>HTML Audio/Video</h4>
+                <h4>HTML Character Sets</h4>
+                <h4>HTML Doctypes</h4>
+                <h4>HTML URL Encode</h4>
+                <h4>HTML Language Codes</h4>
+                <h4>HTML Country Codes</h4>
+                <h4>HTML Messages</h4>
+                <h4>HTML Methods</h4>
+                <h4>PX to EM Converter</h4>
+                <h4>Keyboard Shortcuts</h4>
+                <h3>HTML Tags</h3>
+                <h4>!--</h4>
+                <h4>!DOCTYPE</h4>
+                <h4>a</h4>
+                <h4>abbr</h4>
+                <h4>acronym</h4>
+                <h4>address</h4>
+                <h4>applet</h4>
+                <h4>area</h4>
+
+            </div>
+            </div>
+            <div class="main-content">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Odio impedit pariatur libero quas!</p>
+                <p>Esse nemo error temporibus nam?</p>
+                <p>Voluptate libero alias voluptatibus velit!</p>
+                <p>Soluta officia ducimus porro eligendi.</p>
+                <p>Molestiae facere obcaecati velit possimus!</p>
+                <p>Porro, nesciunt! Vero, laboriosam doloremque.</p>
+                <p>Consequuntur ex cum eos libero.</p>
+                <p>Dicta blanditiis vitae ea molestias!</p>
+                <p>Perspiciatis quo saepe consectetur dolorem!</p>
+            </div>
+            <div class="ad-container">
+                <img src="../html/bts.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
