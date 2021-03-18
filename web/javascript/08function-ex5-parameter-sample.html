@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <button onclick="cahngeImage(this)" id=" button1">비하</button>
+    <button onclick="cahngeImage(this)" id=" button2">새너</button>
+    <button onclick="cahngeImage(this)" id=" button3">cap1</button>
+    <button onclick="cahngeImage(this)" id=" button4">cap2</button>
+    <hr>
+    <img src="" alt="" id="img1">
+
+    <script>
+        function cahngeImage(params) {
+            document.getElementById("img1").src = params.innerHTML + ".jpg";
+        }
+    </script>
+</body>
+
+</html>
