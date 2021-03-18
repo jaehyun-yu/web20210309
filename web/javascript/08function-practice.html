@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <button>1</button><button>2</button><button>3</button>
+    <button onclick="process()"><i class="fas fa-plus"></i></button>
+    <button onclick="process()"><i class="fas fa-minus"></i></button>
+    <br>
+    <button>4</button><button>5</button><button>6</button>
+    <button onclick="process()"><i class="fas fa-times"></i></button>
+    <button onclick="process()"><i class="fas fa-divide"></i></button>
+    <br>
+    <button>7</button><button>8</button><button>9</button>
+    <button>←</button><button>=</button>
+
+    <br>
+    <input type="text" id="input1">
+    <br>
+
+    <input type="text" id="result" readonly>
+
+    <script>
+        var a = document.getElementById("input1").value;
+        var b = add(a, b);
+        var c = minus(a, b);
+        var d = times(a,b);
+        var e = divide(a,b);
+        var f = delete(a);
+        }
+        function add(x, y) {
+            return Number(x) + Number(y);
+
+        }
+        function minus(x, y) {
+            return Number(x) - Number(y);
+
+        }
+        function times(x, y) {
+            return Number(x) * Number(y);
+
+        }
+        function divide(x, y) {
+            return Number(x) / Number(y);
+
+        }
+    </script>
+
+</body>
+
+</html>
