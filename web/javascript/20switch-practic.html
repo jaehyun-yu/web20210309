@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+<button onclick="game()"><i calss="">멈추기</i></button>
+
+<div class ="container">
+<div class ="slot1"></div>
+<div class ="slot2"></div>
+<div class ="slot3"></div>
+
+<div id="result1"></div>
+<div id="result2"></div>
+<div id="result3"></div>
+<script>
+function game(slot1) {
+    var computer = Math.floor(Math.random() *9 )+1;  
+}
+function game(slot2) {
+    var computer = Math.floor(Math.random() *9 )+1;
+}
+function game(slot3) {
+    var computer = Math.floor(Math.random() *9 )+1;
+}
+document.getElementById("result1").innerHTML= resultText;
+document.getElementById("result2").innerHTML= resultText;
+document.getElementById("result3").innerHTML= resultText;
+</script>
+</div>
+</body>
+</html>
